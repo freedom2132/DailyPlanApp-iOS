@@ -101,7 +101,7 @@ struct CollectView: View {
     private func pasteFromClipboard() {
         #if canImport(UIKit)
         if let text = UIPasteboard.general.string, !text.isEmpty {
-            let task = TaskItem(title: text, category: .collect, source: "CLIPBOARD")
+            let task = TaskItem(title: text, source: "CLIPBOARD", category: .collect)
             modelContext.insert(task)
         }
         #endif
@@ -112,7 +112,7 @@ struct CollectView: View {
         for line in lines {
             let trimmed = line.trimmingCharacters(in: .whitespaces)
             if trimmed.count > 2 && !trimmed.hasSuffix(":") && !trimmed.hasSuffix("：") {
-                let task = TaskItem(title: trimmed, category: .collect, source: "WECHAT")
+                let task = TaskItem(title: trimmed, source: "WECHAT", category: .collect)
                 modelContext.insert(task)
             }
         }

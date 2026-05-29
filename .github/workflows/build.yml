@@ -24,11 +24,16 @@ jobs:
             -destination 'generic/platform=iOS Simulator' \
             -derivedDataPath build \
             CODE_SIGNING_ALLOWED=NO \
-            | xcpretty || true
+            | xcpretty
+
+      - name: Zip App
+        run: |
+          cd build/Build/Products/Debug-iphonesimulator
+          zip -r ${{ github.workspace }}/DailyPlanApp-simulator.zip DailyPlanApp.app
 
       - name: Upload App
         uses: actions/upload-artifact@v4
         with:
           name: DailyPlanApp-simulator
-          path: build/Build/Products/Debug-iphonesimulator/DailyPlanApp.app
+          path: DailyPlanApp-simulator.zip
           retention-days: 30

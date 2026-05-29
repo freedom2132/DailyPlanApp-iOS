@@ -150,7 +150,8 @@ struct TodayView: View {
 
         let allPending = todayKeyTasks + todoTasks
         let todayDdl = allPending.filter { ($0.deadline ?? .distantFuture) < Calendar.current.startOfDay(for: Calendar.current.date(byAdding: .day, value: 1, to: now)!) }
-        let threeDayDdl = allPending.filter { let d = $0.deadline ?? .distantFuture; return d >= now && d < threeDaysLater && !todayDdl.contains(where: { $0.id == $1.id }) }
+        let todayDdlIds = Set(todayDdl.map(\.id))
+        let threeDayDdl = allPending.filter { let d = $0.deadline ?? .distantFuture; return d >= now && d < threeDaysLater && !todayDdlIds.contains($0.id) }
         let weekDdl = allPending.filter { let d = $0.deadline ?? .distantFuture; return d >= threeDaysLater && d < weekLater }
 
         return VStack(alignment: .leading, spacing: 8) {
