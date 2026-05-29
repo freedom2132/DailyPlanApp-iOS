@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A100010010000001 /* DailyPlanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000010000001; };
+		A100010010000002 /* TaskItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000010000002; };
+		A100010010000003 /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000010000003; };
+		A100010010000004 /* DailyArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000010000004; };
+		A100010010000005 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000010000005; };
+		A100010010000006 /* TaskRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000010000006; };
+		A100010010000007 /* AddTaskSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000010000007; };
+		A100010010000008 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000010000008; };
+		A100010010000009 /* TaskDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000010000009; };
+		A10001001000000A /* CollectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000001000000A; };
+		A10001001000000B /* ArchiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000001000000B; };
+		A10001001000000C /* HabitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000001000000C; };
+		A10001001000000D /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000001000000D; };
+		A10001001000000E /* FortuneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000001000000E; };
+		A10001001000000F /* MiniGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000001000000F; };
+		A100010010000010 /* MiniGameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000010000010; };
+		A100010010000011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A100000010000011; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A100000010000001 /* DailyPlanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPlanApp.swift; sourceTree = "<group>"; };
+		A100000010000002 /* TaskItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItem.swift; sourceTree = "<group>"; };
+		A100000010000003 /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
+		A100000010000004 /* DailyArchive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyArchive.swift; sourceTree = "<group>"; };
+		A100000010000005 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		A100000010000006 /* TaskRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRowView.swift; sourceTree = "<group>"; };
+		A100000010000007 /* AddTaskSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskSheet.swift; sourceTree = "<group>"; };
+		A100000010000008 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		A100000010000009 /* TaskDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDetailView.swift; sourceTree = "<group>"; };
+		A10000001000000A /* CollectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectView.swift; sourceTree = "<group>"; };
+		A10000001000000B /* ArchiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveView.swift; sourceTree = "<group>"; };
+		A10000001000000C /* HabitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsView.swift; sourceTree = "<group>"; };
+		A10000001000000D /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		A10000001000000E /* FortuneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortuneView.swift; sourceTree = "<group>"; };
+		A10000001000000F /* MiniGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniGameView.swift; sourceTree = "<group>"; };
+		A100000010000010 /* MiniGameEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniGameEngine.swift; sourceTree = "<group>"; };
+		A100000010000011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A100030010000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A100020010000000 = {
+			isa = PBXGroup;
+			children = (
+				A100020010000001 /* DailyPlanApp */,
+			);
+			sourceTree = "<group>";
+		};
+		A100020010000001 /* DailyPlanApp */ = {
+			isa = PBXGroup;
+			children = (
+				A100000010000001 /* DailyPlanApp.swift */,
+				A100020010000002 /* Models */,
+				A100020010000003 /* Views */,
+				A100020010000008 /* Services */,
+				A100000010000011 /* Assets.xcassets */,
+			);
+			path = DailyPlanApp;
+			sourceTree = "<group>";
+		};
+		A100020010000002 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A100000010000002 /* TaskItem.swift */,
+				A100000010000003 /* Habit.swift */,
+				A100000010000004 /* DailyArchive.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A100020010000003 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A100000010000005 /* MainTabView.swift */,
+				A100020010000004 /* Today */,
+				A100020010000005 /* Collect */,
+				A100020010000006 /* Archive */,
+				A100020010000007 /* Habits */,
+				A100020010000009 /* Profile */,
+				A10002001000000A /* Games */,
+				A10002001000000B /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A100020010000004 /* Today */ = {
+			isa = PBXGroup;
+			children = (
+				A100000010000008 /* TodayView.swift */,
+				A100000010000009 /* TaskDetailView.swift */,
+			);
+			path = Today;
+			sourceTree = "<group>";
+		};
+		A100020010000005 /* Collect */ = {
+			isa = PBXGroup;
+			children = (
+				A10000001000000A /* CollectView.swift */,
+			);
+			path = Collect;
+			sourceTree = "<group>";
+		};
+		A100020010000006 /* Archive */ = {
+			isa = PBXGroup;
+			children = (
+				A10000001000000B /* ArchiveView.swift */,
+			);
+			path = Archive;
+			sourceTree = "<group>";
+		};
+		A100020010000007 /* Habits */ = {
+			isa = PBXGroup;
+			children = (
+				A10000001000000C /* HabitsView.swift */,
+			);
+			path = Habits;
+			sourceTree = "<group>";
+		};
+		A100020010000009 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A10000001000000D /* ProfileView.swift */,
+				A10000001000000E /* FortuneView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A10002001000000A /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				A10000001000000F /* MiniGameView.swift */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		A10002001000000B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A100000010000006 /* TaskRowView.swift */,
+				A100000010000007 /* AddTaskSheet.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A100020010000008 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A100000010000010 /* MiniGameEngine.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A100040010000001 /* DailyPlanApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A100060010000001 /* Build configuration list for PBXNativeTarget "DailyPlanApp" */;
+			buildPhases = (
+				A100050010000001 /* Sources */,
+				A100030010000001 /* Frameworks */,
+				A100050010000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DailyPlanApp;
+			packageProductDependencies = (
+			);
+			productName = DailyPlanApp;
+			productReference = A100070010000001 /* DailyPlanApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A100080010000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A100040010000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A100060010000002 /* Build configuration list for PBXProject "DailyPlanApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = A100020010000000;
+			productRefGroup = A100020010000001 /* DailyPlanApp */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A100040010000001 /* DailyPlanApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A100050010000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A100010010000011 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A100050010000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A100010010000001 /* DailyPlanApp.swift in Sources */,
+				A100010010000002 /* TaskItem.swift in Sources */,
+				A100010010000003 /* Habit.swift in Sources */,
+				A100010010000004 /* DailyArchive.swift in Sources */,
+				A100010010000005 /* MainTabView.swift in Sources */,
+				A100010010000006 /* TaskRowView.swift in Sources */,
+				A100010010000007 /* AddTaskSheet.swift in Sources */,
+				A100010010000008 /* TodayView.swift in Sources */,
+				A100010010000009 /* TaskDetailView.swift in Sources */,
+				A10001001000000A /* CollectView.swift in Sources */,
+				A10001001000000B /* ArchiveView.swift in Sources */,
+				A10001001000000C /* HabitsView.swift in Sources */,
+				A10001001000000D /* ProfileView.swift in Sources */,
+				A10001001000000E /* FortuneView.swift in Sources */,
+				A10001001000000F /* MiniGameView.swift in Sources */,
+				A100010010000010 /* MiniGameEngine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A100090010000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A100090010000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A100090010000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "今日三件";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dailyplan.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A100090010000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "今日三件";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dailyplan.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A100060010000001 /* Build configuration list for PBXNativeTarget "DailyPlanApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A100090010000003 /* Debug */,
+				A100090010000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A100060010000002 /* Build configuration list for PBXProject "DailyPlanApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A100090010000001 /* Debug */,
+				A100090010000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = A100080010000001 /* Project object */;
+}
